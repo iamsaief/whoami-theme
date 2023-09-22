@@ -1,0 +1,30 @@
+{
+	"name": "whoami",
+	"version": "1.0.0",
+	"description": "=== WhoAmI === Contributors: Saief Al Emon Requires at least: 6.0 Tested up to: 6.3.1 Requires PHP: 5.7 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+	"main": "index.js",
+	"scripts": {
+		"watch": "mix watch",
+		"hot": "mix watch --hot",
+		"prod": "npm run production",
+		"production": "mix --production",
+		"makepot": "wp i18n make-pot --exclude='node_modules,vendor' . languages/crewhrm.pot",
+		"bundle": "dir-archiver --src . --dest ~/Downloads/crewhrm.zip --exclude .DS_Store .ds_store .keep mix-manifest.json .eslintrc.json .eslintignore .git .gitattributes .github .gitignore phpcs.xml README.md composer.json composer.lock node_modules package-lock.json package.json webpack.mix.js sass reactjs src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamsaief/whoami-theme.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iamsaief/whoami-theme/issues"
+	},
+	"homepage": "https://github.com/iamsaief/whoami-theme#readme",
+	"devDependencies": {
+		"dir-archiver": "^2.1.0",
+		"laravel-mix": "^6.0.49",
+		"resolve-url-loader": "^5.0.0",
+		"sass-loader": "^12.6.0"
+	}
+}
