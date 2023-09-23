@@ -18,17 +18,27 @@
 				{
 					"name": "Primary",
 					"slug": "wmi-primary",
-					"color": "#1e5cc1"
+					"color": "hsl(216 81% 45% / 1)"
 				},
 				{
-					"name": "Secondary",
-					"slug": "wmi-secondary",
-					"color": "#1a1a1a"
+					"name": "Text",
+					"slug": "wmi-body-text",
+					"color": "hsl(0deg 0% 10.2%)"
 				},
 				{
-					"name": "Light Gray",
-					"slug": "wmi-light-gray",
-					"color": "#F3F3F3"
+					"name": "Background",
+					"slug": "wmi-body-bg",
+					"color": "hsl(0deg 0% 100%)"
+				},
+				{
+					"name": "Heading",
+					"slug": "wmi-heading",
+					"color": "hsl(0deg 0% 9%)"
+				},
+				{
+					"name": "Border",
+					"slug": "wmi-border",
+					"color": "hsl(0 0% 95% / 1)"
 				}
 			]
 		},
@@ -52,8 +62,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--white, #fff)",
-			"text": "var(--wp--preset--color--wmi-secondary, #1a1a1a)"
+			"background": "var(--wp--preset--color--wmi-body-bg, #fff)",
+			"text": "var(--wp--preset--color--wmi-body-text, #1a1a1a)"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)",
@@ -62,6 +72,11 @@
 			"lineHeight": "1.4"
 		},
 		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--wmi-heading, #1a1a1a)"
+				}
+			},
 			"link": {
 				"typography": {
 					"textDecoration": "none"
