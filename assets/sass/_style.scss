@@ -1,0 +1,43 @@
+:where(.wp-site-blocks) > *,
+:where(body .is-layout-flow) > *,
+:where(body .is-layout-constrained) > * {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+:where(.wp-block-columns) {
+	margin-bottom: 0;
+}
+
+main.main-wrapper {
+	.wp-block-spacer[style="height:50px"] {
+		height: 30px !important;
+	}
+
+	.wp-block-group {
+		@include breakpoint-max(782) {
+			max-width: 100%;
+		}
+	}
+
+	.wp-block-separator {
+		border-top: none;
+	}
+
+	.wp-block-post-date {
+		time {
+			&:before {
+				content: "[ ";
+			}
+			&:after {
+				content: " ]";
+			}
+		}
+	}
+}
+
+@include breakpoint-max(782) {
+	.wp-block-column figure.alignright {
+		float: unset;
+		margin-inline: 0;
+	}
+}

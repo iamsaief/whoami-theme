@@ -3,7 +3,7 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	// outline: 1px dotted rgba(135, 207, 235, 0.5); // layout debug
+	// outline: 1px dotted rgba(135, 207, 235, 0.15); // layout debug
 }
 
 html {
@@ -26,11 +26,6 @@ img {
 	max-width: 100%;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
 h1,
 h2,
 h3,
@@ -42,4 +37,5 @@ h6 {
 
 // Main styles
 @import "../css/normalize.css";
+@import "./breakpoints";
 @import "./style";

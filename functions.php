@@ -2,7 +2,7 @@
 
 
 const THEME_SLUG         = 'whoami';
-const THEME_PFX         = 'whoami';
+const THEME_PFX         = 'wmi';
 const THEME_DIR         = __DIR__;
 
 require_once THEME_DIR . '/inc/tgm/tgmpa-config.php';

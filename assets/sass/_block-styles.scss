@@ -1,0 +1,45 @@
+// Register block styles
+
+.wp-block-table.is-style-wmi-no-outer-border {
+	table {
+		border: none;
+	}
+	td {
+		border-style: solid !important;
+		border-width: 1px !important;
+	}
+	tr {
+		&:first-child {
+			td {
+				border-top: none !important;
+			}
+		}
+		&:last-child {
+			td {
+				border-bottom: none !important;
+			}
+		}
+		td {
+			&:first-child {
+				border-left: none !important;
+			}
+			&:last-child {
+				border-right: none !important;
+			}
+		}
+	}
+}
+
+ul.is-style-wmi-has-emoji {
+	padding-left: 0;
+	display: grid;
+	gap: 10px;
+	li {
+		display: flex;
+		gap: 5px;
+
+		&::before {
+			content: "🧑🏻‍💻";
+		}
+	}
+}

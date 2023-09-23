@@ -19,6 +19,62 @@ if (function_exists('register_block_style')) {
      */
     function whoami_register_block_styles() {
 
+        // Tables - no outer border
+        register_block_style(
+            'core/table',
+            array(
+                'name'         => THEME_PFX . '-no-outer-border',
+                'label'        => __('No Outer Border', 'whoami'),
+                'inline_style' => '
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border table {
+                        border: unset;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border table td {
+                        border-style: solid !important;
+                        border-width: initial !important;
+                        border-color: inherit !important;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border td {
+                        border-style: solid !important;
+                        border-width: initial !important;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border tr:first-child td {
+                        border-top: none !important;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border tr:last-child td {
+                        border-bottom: none !important;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border tr td:first-child {
+                        border-left: none !important;
+                    }
+                    .wp-block-table.is-style-' . THEME_PFX . '-no-outer-border tr td:last-child {
+                        border-right: none !important;
+                    }'
+            )
+        );
+
+        // List 
+        register_block_style(
+            'core/list',
+            array(
+                'name'         => THEME_PFX . '-has-emoji',
+                'label'        => __('Emoji List', 'whoami'),
+                'inline_style' => '
+                    ul.is-style-' . THEME_PFX . '-has-emoji {
+                        padding-left: 0;
+                        display: grid;
+                        gap: 10px;
+                    }
+                    ul.is-style-' . THEME_PFX . '-has-emoji li {
+                        display: flex;
+                        gap: 5px;
+                    }
+                    ul.is-style-' . THEME_PFX . '-has-emoji li::before {
+                        content: "⚡️";
+                    }'
+            )
+        );
+
         // Buttons - has icon
         register_block_style(
             'core/buttons',
@@ -54,15 +110,6 @@ if (function_exists('register_block_style')) {
                             background: transparent;
                         }
                     ',
-            )
-        );
-
-        // List 
-        register_block_style(
-            'core/list',
-            array(
-                'name'         => 'has-icon',
-                'label'        => __('Icon List', 'brutal-wp'),
             )
         );
     }
