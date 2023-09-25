@@ -75,6 +75,46 @@ if (function_exists('register_block_style')) {
             )
         );
 
+        // List 
+        register_block_style(
+            'core/post-date',
+            array(
+                'name'         => THEME_PFX . '-has-bracket',
+                'label'        => __('With Bracket', 'whoami'),
+                'inline_style' => '
+                    .wp-block-post-date.is-style-' . THEME_PFX . '-has-bracket time:before {
+                        content: "[ ";
+                    }
+                    .wp-block-post-date.is-style-' . THEME_PFX . '-has-bracket time:after {
+                        content: " ]";
+                    }
+                '
+            )
+        );
+
+        // List 
+        register_block_style(
+            'core/categories',
+            array(
+                'name'         => THEME_PFX . '-flex',
+                'label'        => __('Flex', 'whoami'),
+                'inline_style' => '
+                    ul.wp-block-categories-list.is-style-' . THEME_PFX . '-flex {
+                        padding-left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 5px 10px;
+                    }
+                    
+                    ul.wp-block-categories-list.is-style-' . THEME_PFX . '-flex li {
+                        display: inline-flex;
+                        gap: 5px;
+                        text-transform: uppercase;
+                    }
+                '
+            )
+        );
+
         // Buttons - has icon
         register_block_style(
             'core/buttons',

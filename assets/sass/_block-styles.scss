@@ -43,3 +43,48 @@ ul.is-style-wmi-has-emoji {
 		}
 	}
 }
+
+.is-style-wmi-has-bracket.wp-block-post-date {
+	time {
+		&:before {
+			content: "[ ";
+		}
+		&:after {
+			content: " ]";
+		}
+	}
+}
+
+/* 
+======= LIGHT =
+primary
+    hsl(216 81% 45% / 1)
+
+body - background, text
+    background-color: hsl(0deg 0% 100%);
+    color: hsl(0deg 0% 10.2%);
+
+heading
+    hsl(0deg 0% 10.2%)
+
+border - img, table 
+    hsl(0 0% 95% / 1)
+
+
+
+
+======== DARK =
+primary
+    hsl(193 87% 56% / 1)
+
+body - background, text
+    background-color: hsl(215 47% 7% / 1);
+    color: rgb(255 255 255 / 80%);
+
+heading
+    hsl(0deg 0% 100% / 90%)
+
+border - img, table 
+    hsl(0deg 0% 30% / 20%)
+
+*/

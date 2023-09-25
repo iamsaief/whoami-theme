@@ -8,6 +8,12 @@
 	margin-bottom: 0;
 }
 
+@include breakpoint-max(782) {
+	.wp-block-group[class*="wp-container-"] > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: initial;
+	}
+}
+
 main.main-wrapper {
 	.wp-block-spacer[style="height:50px"] {
 		height: 30px !important;
@@ -47,37 +53,3 @@ main.main-wrapper {
 		color: var(--wp--preset--color--wmi-primary) !important;
 	}
 }
-
-/* 
-======= LIGHT =
-primary
-    hsl(216 81% 45% / 1)
-
-body - background, text
-    background-color: hsl(0deg 0% 100%);
-    color: hsl(0deg 0% 10.2%);
-
-heading
-    hsl(0deg 0% 10.2%)
-
-border - img, table 
-    hsl(0 0% 95% / 1)
-
-
-
-
-======== DARK =
-primary
-    hsl(193 87% 56% / 1)
-
-body - background, text
-    background-color: hsl(215 47% 7% / 1);
-    color: rgb(255 255 255 / 80%);
-
-heading
-    hsl(0deg 0% 100% / 90%)
-
-border - img, table 
-    hsl(0deg 0% 30% / 20%)
-
-*/
