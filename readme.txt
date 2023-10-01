@@ -1,4 +1,4 @@
-=== whoami ===
+=== Whoami ===
 Contributors: Saief Al Emon
 Requires at least: 6.0
 Tested up to: 6.3.1
@@ -17,8 +17,8 @@ Gutenberg full site editing personal portfolio theme
 
 == Copyright ==
 
-whoami WordPress Theme, (C) 2023 Saief Al Emon
-whoami is distributed under the terms of the GNU GPL.
+Whoami WordPress Theme, (C) 2023 Saief Al Emon
+Whoami is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

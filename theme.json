@@ -18,27 +18,27 @@
 				{
 					"name": "Primary",
 					"slug": "wmi-primary",
-					"color": "hsl(216 81% 45% / 1)"
+					"color": "hsl(193 87% 56% / 1)"
 				},
 				{
 					"name": "Text",
 					"slug": "wmi-body-text",
-					"color": "hsl(0deg 0% 10.2%)"
+					"color": "hsl(0deg 0% 100% / 80%)"
 				},
 				{
 					"name": "Background",
 					"slug": "wmi-body-bg",
-					"color": "hsl(0deg 0% 100%)"
+					"color": "hsl(215 47% 7% / 1)"
 				},
 				{
 					"name": "Heading",
 					"slug": "wmi-heading",
-					"color": "hsl(0deg 0% 9%)"
+					"color": "hsl(0deg 0% 100% / 90%)"
 				},
 				{
 					"name": "Border",
 					"slug": "wmi-border",
-					"color": "hsl(0 0% 95% / 1)"
+					"color": "hsl(0deg 0% 30% / 20%)"
 				}
 			]
 		},
@@ -49,6 +49,128 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"size": "12px",
+					"slug": "xs",
+					"name": "Extra Small"
+				},
+				{
+					"fluid": false,
+					"size": "14px",
+					"slug": "sm",
+					"name": "Small"
+				},
+				{
+					"fluid": {
+						"min": "14px",
+						"max": "16px"
+					},
+					"size": "16px",
+					"slug": "md",
+					"name": "Medium"
+				},
+				{
+					"fluid": {
+						"min": "16px",
+						"max": "18px"
+					},
+					"size": "18px",
+					"slug": "lg",
+					"name": "Large"
+				},
+				{
+					"fluid": {
+						"min": "18px",
+						"max": "20px"
+					},
+					"size": "20px",
+					"slug": "xl",
+					"name": "X Large"
+				},
+				{
+					"fluid": {
+						"min": "20px",
+						"max": "24px"
+					},
+					"size": "24px",
+					"slug": "2xl",
+					"name": "2X Large"
+				},
+				{
+					"fluid": {
+						"min": "24px",
+						"max": "30px"
+					},
+					"size": "30px",
+					"slug": "3xl",
+					"name": "3X Large"
+				},
+				{
+					"fluid": {
+						"min": "30px",
+						"max": "36px"
+					},
+					"size": "36px",
+					"slug": "4xl",
+					"name": "4X Large"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "48px"
+					},
+					"size": "48px",
+					"slug": "5xl",
+					"name": "5X Large"
+				},
+				{
+					"fluid": {
+						"min": "48px",
+						"max": "60px"
+					},
+					"size": "60px",
+					"slug": "6xl",
+					"name": "6X Large"
+				},
+				{
+					"fluid": {
+						"min": "60px",
+						"max": "72px"
+					},
+					"size": "72px",
+					"slug": "7xl",
+					"name": "7X Large"
+				},
+				{
+					"fluid": {
+						"min": "72px",
+						"max": "96px"
+					},
+					"size": "96px",
+					"slug": "8xl",
+					"name": "8X Large"
+				},
+				{
+					"fluid": {
+						"min": "100px",
+						"max": "128px"
+					},
+					"size": "128px",
+					"slug": "9xl",
+					"name": "9X Large"
+				},
+				{
+					"fluid": {
+						"min": "128px",
+						"max": "160px"
+					},
+					"size": "160px",
+					"slug": "10xl",
+					"name": "10X Large"
 				}
 			]
 		}
@@ -77,6 +199,22 @@
 					"text": "var(--wp--preset--color--wmi-heading, #1a1a1a)"
 				}
 			},
+			"button": {
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"color": {}
+				},
+				":active": {
+					"color": {}
+				},
+				":visited": {
+					"color": {}
+				}
+			},
 			"link": {
 				"typography": {
 					"textDecoration": "none"
@@ -85,8 +223,81 @@
 					"text": "var(--wp--preset--color--wmi-primary)"
 				},
 				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--wmi-primary)"
+					},
 					"typography": {
 						"textDecoration": "underline"
+					}
+				},
+				":visited": {
+					"color": {}
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--5-xl)",
+					"lineHeight": "1"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--4-xl)",
+					"lineHeight": "1.1"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--3-xl)",
+					"lineHeight": "1.2"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--2-xl)",
+					"lineHeight": "1.3"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xl)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--md)"
+				}
+			}
+		},
+		"blocks": {
+			"core/query-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--5-xl)"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--4-xl)",
+					"lineHeight": "1"
+				}
+			},
+			"core/block": {
+				"spacing": {
+					"padding": {}
+				},
+				"variations": {}
+			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--wmi-primary)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
 					}
 				}
 			}
@@ -99,9 +310,21 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-small",
+			"title": "Header Small"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-projects",
+			"postTypes": ["page"],
+			"title": "Page: Projects"
 		}
 	]
 }

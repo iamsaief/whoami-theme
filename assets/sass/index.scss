@@ -3,7 +3,7 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	// outline: 1px dotted rgba(135, 207, 235, 0.15); // layout debug
+	//outline: 1px dotted rgba(255, 0, 0, 0.15); // layout debug
 }
 
 html {
@@ -33,6 +33,25 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+
+[type="search"] {
+	outline-offset: 0px;
+}
+
+[type="search"],
+button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+a {
+	&:is(:focus-visible) {
+		border-radius: 4px;
+		outline-color: var(--wp--preset--color--wmi-primary);
+		outline-style: solid;
+		outline-width: 2px;
+		outline-offset: 2px;
+	}
 }
 
 // Main styles

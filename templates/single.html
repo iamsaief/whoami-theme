@@ -1,31 +1,99 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"article","layout":{"type":"constrained","contentSize":"60%"}} -->
-<article class="wp-block-group">
-	<!-- wp:post-title {"isLink":true} /-->
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"960px","wideSize":"1170px"}} -->
+<div class="wp-block-group">
+	<!-- wp:heading {"level":1,"fontSize":"6xl"} -->
+	<h1 class="wp-block-heading has-6-xl-font-size">Hi There! 👋</h1>
+	<!-- /wp:heading -->
 
-	<!-- wp:group {"style":{"typography":{"fontSize":"14px"}},"textColor":"wmi-body-text","layout":{"type":"flex"}} -->
-	<div class="wp-block-group has-wmi-body-text-color has-text-color" style="font-size: 14px">
-		<!-- wp:post-terms {"term":"category"} /-->
+	<!-- wp:spacer {"height":"30px"} -->
+	<div style="height: 30px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 
-		<!-- wp:post-terms {"term":"post_tag"} /-->
-	</div>
-	<!-- /wp:group -->
+	<!-- wp:paragraph {"fontSize":"lg"} -->
+	<p class="has-lg-font-size">
+		Its Jhon Doe, Front-end developer with 4+ years of experience, passionate about creating engaging, accessible web
+		experiences that delight users and meet business goals. Proficient in HTML, CSS/SCSS, JavaScript, Reactjs,
+		WordPress, and more. Keen eye for UI/UX, typography, spacing.<br /><br />Writings are about frontend development,
+		tutorials, and other useful resources. I am currently focused on the Full Site Editing, and block-based themes and
+		plugins.
+	</p>
+	<!-- /wp:paragraph -->
 
 	<!-- wp:spacer {"height":"40px"} -->
 	<div style="height: 40px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"top":"100px","bottom":"50px"}}}} /-->
+	<!-- wp:categories {"showHierarchy":true,"showPostCounts":true,"showOnlyTopLevel":true,"className":"is-style-wmi-flex","fontSize":"xs"} /-->
 
-	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-
-	<!-- wp:spacer -->
-	<div style="height: 100px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"60px"} -->
+	<div style="height: 60px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:post-terms {"term":"post_tag","textAlign":"left","prefix":"Tags | "} /-->
-</article>
+	<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":null,"parents":[]},"tagName":"main","layout":{"contentSize":null,"type":"constrained"}} -->
+	<main class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"constrained"}} -->
+		<!-- wp:group -->
+		<div class="wp-block-group">
+			<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"30px"}}}} -->
+			<div class="wp-block-columns">
+				<!-- wp:column {"width":"25%"} -->
+				<div class="wp-block-column" style="flex-basis: 25%">
+					<!-- wp:post-date {"textAlign":"right","textColor":"wmi-heading","className":"is-style-wmi-has-bracket"} /-->
+				</div>
+				<!-- /wp:column -->
+
+				<!-- wp:column {"width":""} -->
+				<div class="wp-block-column">
+					<!-- wp:post-title {"isLink":true,"style":{"typography":{"fontSize":"36px","lineHeight":"1"}}} /-->
+
+					<!-- wp:spacer {"height":"10px"} -->
+					<div style="height: 10px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
+
+					<!-- wp:group {"style":{"typography":{"fontSize":"14px"}},"textColor":"wmi-body-text","layout":{"type":"flex"}} -->
+					<div class="wp-block-group has-wmi-body-text-color has-text-color" style="font-size: 14px">
+						<!-- wp:post-terms {"term":"category"} /-->
+
+						<!-- wp:post-terms {"term":"post_tag"} /-->
+					</div>
+					<!-- /wp:group -->
+
+					<!-- wp:spacer {"height":"20px"} -->
+					<div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
+
+					<!-- wp:post-excerpt {"moreText":"","excerptLength":25} /-->
+				</div>
+				<!-- /wp:column -->
+			</div>
+			<!-- /wp:columns -->
+
+			<!-- wp:spacer {"height":"60px"} -->
+			<div style="height: 60px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		</div>
+		<!-- /wp:group -->
+		<!-- /wp:post-template -->
+
+		<!-- wp:group {"layout":{"type":"constrained","contentSize":"720px","wideSize":"960px"}} -->
+		<div class="wp-block-group">
+			<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between","orientation":"horizontal"}} -->
+			<!-- wp:query-pagination-previous /-->
+
+			<!-- wp:query-pagination-numbers /-->
+
+			<!-- wp:query-pagination-next /-->
+			<!-- /wp:query-pagination -->
+
+			<!-- wp:spacer {"height":"50px"} -->
+			<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		</div>
+		<!-- /wp:group -->
+	</main>
+	<!-- /wp:query -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

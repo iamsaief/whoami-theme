@@ -55,7 +55,7 @@ if (function_exists('register_block_pattern_category')) {
         register_block_pattern_category(
             'whoami',
             array(
-                'label' => __('WhoAmI', 'whoami'),
+                'label' => __('Whoami', 'whoami'),
                 'description' => __('Theme Specific Patterns', 'whoami'),
             )
         );

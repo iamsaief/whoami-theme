@@ -10,27 +10,27 @@
 				{
 					"name": "Primary",
 					"slug": "wmi-primary",
-					"color": "hsl(193 87% 56% / 1)"
+					"color": "hsl(224 96% 52% / 1)"
 				},
 				{
 					"name": "Text",
 					"slug": "wmi-body-text",
-					"color": "hsl(0deg 0% 100% / 80%)"
+					"color": "hsl(0deg 0% 10.2%)"
 				},
 				{
 					"name": "Background",
 					"slug": "wmi-body-bg",
-					"color": "hsl(215 47% 7% / 1)"
+					"color": "hsl(0deg 0% 100%)"
 				},
 				{
 					"name": "Heading",
 					"slug": "wmi-heading",
-					"color": "hsl(0deg 0% 100% / 90%)"
+					"color": "hsl(0deg 0% 9%)"
 				},
 				{
 					"name": "Border",
 					"slug": "wmi-border",
-					"color": "hsl(0deg 0% 30% / 20%)"
+					"color": "hsl(0 0% 95% / 1)"
 				}
 			]
 		}
