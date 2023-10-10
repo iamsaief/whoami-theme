@@ -1,18 +1,18 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"5px"}}},"layout":{"type":"constrained","contentSize":"50%"}} -->
-<div class="wp-block-group alignwide" style="margin-top: 5px">
-	<!-- wp:spacer {"height":"50px"} -->
-	<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:group {"tagName":"main","align":"wide","style":{"spacing":{"margin":{"top":"5px"}}},"layout":{"type":"constrained","contentSize":"50%","wideSize":"100%"}} -->
+<main class="wp-block-group alignwide" style="margin-top: 5px">
+	<!-- wp:spacer {"height":"60px"} -->
+	<div style="height: 60px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","style":{"typography":{"fontSize":"300px","fontStyle":"normal","fontWeight":"200","textTransform":"uppercase","letterSpacing":"-10px","lineHeight":"1"}}} -->
+	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","style":{"typography":{"fontSize":"300px","fontStyle":"normal","fontWeight":"100","textTransform":"uppercase","letterSpacing":"-10px","lineHeight":"1"}}} -->
 	<h1
 		class="wp-block-heading alignwide has-text-align-center"
 		style="
 			font-size: 300px;
 			font-style: normal;
-			font-weight: 200;
+			font-weight: 100;
 			letter-spacing: -10px;
 			line-height: 1;
 			text-transform: uppercase;
@@ -22,8 +22,12 @@
 	</h1>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"align":"center"} -->
-	<p class="has-text-align-center">This page is not be found. Try searching instead?</p>
+	<!-- wp:spacer {"height":"50px"} -->
+	<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+	<!-- wp:paragraph {"align":"center","fontSize":"2xl"} -->
+	<p class="has-text-align-center has-2-xl-font-size">This page is not be found. Try searching instead?</p>
 	<!-- /wp:paragraph -->
 
 	<!-- wp:spacer {"height":"20px"} -->
@@ -32,10 +36,10 @@
 
 	<!-- wp:search {"showLabel":false,"buttonUseIcon":true} /-->
 
-	<!-- wp:spacer {"height":"50px"} -->
-	<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"80px"} -->
+	<div style="height: 80px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
-</div>
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

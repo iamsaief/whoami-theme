@@ -134,6 +134,11 @@ footer.wp-block-template-part .emoji {
 
 // SINGLE POSTS
 .wp-block-post-content {
+	&.alignfull {
+		padding-left: var(--wp--style--root--padding-left, 15px);
+		padding-right: var(--wp--style--root--padding-right, 15px);
+	}
+
 	> * {
 		margin-bottom: 20px;
 	}
@@ -179,6 +184,11 @@ footer.wp-block-template-part .emoji {
 		tbody td:empty {
 			// border-color: transparent;
 		}
+	}
+
+	.wp-block-code {
+		margin-bottom: 30px;
+		font-size: 0.88em;
 	}
 }
 

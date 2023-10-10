@@ -1,7 +1,11 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained","contentSize":"960px","wideSize":"1170px"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained","contentSize":"960px","wideSize":"100%"}} -->
+<main class="wp-block-group">
+	<!-- wp:spacer {"height":"20px"} -->
+	<div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
 	<!-- wp:heading {"level":1,"fontSize":"6xl"} -->
 	<h1 class="wp-block-heading has-6-xl-font-size">Hi There! 👋</h1>
 	<!-- /wp:heading -->
@@ -69,14 +73,18 @@
 			</div>
 			<!-- /wp:columns -->
 
-			<!-- wp:spacer {"height":"60px"} -->
-			<div style="height: 60px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- wp:spacer {"height":"40px"} -->
+			<div style="height: 40px" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 		</div>
 		<!-- /wp:group -->
 		<!-- /wp:post-template -->
 
-		<!-- wp:group {"layout":{"type":"constrained","contentSize":"720px","wideSize":"960px"}} -->
+		<!-- wp:spacer {"height":"60px"} -->
+		<div style="height: 60px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+
+		<!-- wp:group {"layout":{"type":"constrained","contentSize":"80%","wideSize":"100%"}} -->
 		<div class="wp-block-group">
 			<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between","orientation":"horizontal"}} -->
 			<!-- wp:query-pagination-previous /-->
@@ -85,15 +93,15 @@
 
 			<!-- wp:query-pagination-next /-->
 			<!-- /wp:query-pagination -->
-
-			<!-- wp:spacer {"height":"50px"} -->
-			<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
-			<!-- /wp:spacer -->
 		</div>
 		<!-- /wp:group -->
 	</main>
 	<!-- /wp:query -->
-</div>
+
+	<!-- wp:spacer -->
+	<div style="height: 100px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+</main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
