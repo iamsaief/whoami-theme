@@ -52,9 +52,12 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">Reactjs Projects</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">Reactjs Projects</h3>
             <!-- /wp:heading -->
+            <!-- wp:spacer {"height":"10px"} -->
+            <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
 
             <!-- wp:paragraph -->
             <p>A compilation of fun projects throughout learning process of React ecosystem.</p>

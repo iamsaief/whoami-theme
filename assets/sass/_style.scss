@@ -180,15 +180,12 @@ footer.wp-block-template-part .emoji {
 		thead th {
 			padding-top: 0;
 		}
-
-		tbody td:empty {
-			// border-color: transparent;
-		}
 	}
 
-	.wp-block-code {
+	pre.wp-block-code {
 		margin-bottom: 30px;
 		font-size: 0.88em;
+		background: hsl(215 47% 7.5% / 1);
 	}
 }
 

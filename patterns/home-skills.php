@@ -54,11 +54,11 @@
                     <tbody>
                         <tr>
                             <td>Expertise</td>
-                            <td>Modern JavaScript (ES6), DOM Manipulation, Reactjs, Bootstrap,<br />Tailwindcss, HTML, Modern CSS (SVG Animations, Grid/Flexbox etc.),<br />SASS/SCSS and more.</td>
+                            <td>Modern JavaScript (ES6), DOM Manipulation, Reactjs, Bootstrap, Tailwindcss, <br>HTML, Modern CSS (SVG Animations, Grid/Flexbox etc.), SASS/SCSS and more.</td>
                         </tr>
                         <tr>
                             <td>Familiar</td>
-                            <td>PHP, WordPress, Page Building Tools, Nextjs, Redux, Redux-toolkit,<br />REST api, Design Systems, Storybook and more.</td>
+                            <td>PHP, WordPress, Page Building Tools, Nextjs, Redux, Redux-toolkit, <br>REST api, Design Systems, Storybook and more.</td>
                         </tr>
                         <tr>
                             <td>Dev Tools</td>
@@ -94,7 +94,7 @@
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
             <!-- wp:paragraph -->
-            <p>Analytical thinking and the ability to create solutions to problems while working as a team | Passionate, motivated and curious | Willing to learn and improve personal skills | Out<br />of the Box thinker |Attention to Details | Very good sense of humour and spontaneous</p>
+            <p>Analytical thinking and the ability to create solutions to problems while working as a team | Passionate, motivated and curious | Willing to learn and improve personal skills | Out of the Box thinker | Attention to Details | Humours and spontaneous</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
@@ -118,7 +118,7 @@
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
             <!-- wp:paragraph -->
-            <p>Computer Programming | OOP | Software Development Methodologies | Agile Development<br />(Scrum) | Web development (HTML5, CSS/SASS, JavaScript) | Frontend Development |<br />Responsive Design</p>
+            <p>Computer Programming | OOP | Software Development Methodologies | Agile Development (Scrum) | Web development (HTML5, CSS/SASS, JavaScript) | Frontend Development | Responsive Design</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
@@ -142,7 +142,10 @@
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
             <!-- wp:paragraph -->
-            <p>Native: Bengali<br />Others: English<br />LISTENING C1 | READING B2 | WRITING C1 | SPOKEN C1</p>
+            <p>Native: Bengali<br />Others: English</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph {"style":{"typography":{"fontSize":"12px"}}} -->
+            <p style="font-size:12px">LISTENING C1 | READING B2 | WRITING C1 | SPOKEN C1</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->

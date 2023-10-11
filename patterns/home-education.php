@@ -52,10 +52,10 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
-            <div class="wp-block-group">
-                <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-                <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">IELTS,</h3>
+
+            <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"bottom"}} -->
+            <div class="wp-block-group"><!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+                <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">IELTS,</h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph -->
@@ -84,8 +84,8 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">JavaScript Algorithms and Data Structures Certification (300 hours),</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">JavaScript Algorithms and Data Structures Certification (300 hours),</h3>
             <!-- /wp:heading -->
 
             <!-- wp:spacer {"height":"10px"} -->
@@ -116,10 +116,9 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
-            <div class="wp-block-group">
-                <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-                <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">Agile &amp; Scrum Workshop,</h3>
+            <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"bottom"}} -->
+            <div class="wp-block-group"><!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+                <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">Agile & Scrum Workshop,</h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph -->
@@ -148,8 +147,8 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">Responsive Web Design Certification (300 hours)</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">Responsive Web Design Certification (300 hours)</h3>
             <!-- /wp:heading -->
 
             <!-- wp:spacer {"height":"10px"} -->
@@ -180,8 +179,8 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"2xl"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-2-xl-font-size">BSc (Hons) in Computer Science and Engineering</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">BSc (Hons) in Computer Science and Engineering</h3>
             <!-- /wp:heading -->
 
             <!-- wp:spacer {"height":"10px","style":{"layout":[]}} -->

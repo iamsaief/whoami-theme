@@ -25,14 +25,13 @@
         <div class="wp-block-group"><!-- wp:site-logo {"width":60,"shouldSyncIcon":false,"className":"is-style-rounded","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
 
             <!-- wp:code {"style":{"typography":{"textTransform":"capitalize","fontStyle":"normal","fontWeight":"300","lineHeight":"1"}},"textColor":"wmi-body-text","fontSize":"3xl"} -->
-            <pre class="wp-block-code has-wmi-body-text-color has-text-color has-3-xl-font-size" style="font-style:normal;font-weight:300;line-height:1;text-transform:capitalize"><code><a href="/">&lt;JhonDoe/&gt;</a></code></pre>
+            <pre class="wp-block-code has-wmi-body-text-color has-text-color has-3-xl-font-size" style="font-style:normal;font-weight:300;line-height:1;text-transform:capitalize"><code><a href="/">&lt;Saief/&gt;</a></code></pre>
             <!-- /wp:code -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:navigation {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
 
-        <!-- wp:navigation-link {"label":"<?php esc_html_e('Home', 'whoami'); ?>","url":"/","kind":"custom","isTopLevelLink":true} /-->
         <!-- wp:navigation-link {"label":"<?php esc_html_e('Blog', 'whoami'); ?>","url":"/blog","kind":"custom","isTopLevelLink":true} /-->
         <!-- wp:navigation-link {"label":"<?php esc_html_e('Projects', 'whoami'); ?>","url":"/projects","kind":"custom","isTopLevelLink":true} /-->
         <!-- wp:navigation-link {"label":"<?php esc_html_e('Contact', 'whoami'); ?>","url":"/contact","kind":"custom","isTopLevelLink":true} /-->

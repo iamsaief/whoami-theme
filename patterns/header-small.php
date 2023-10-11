@@ -10,7 +10,6 @@
 
 /*
 <!-- wp:navigation {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
-    <!-- wp:navigation-link {"label":"<?php esc_html_e('Home', 'whoami'); ?>","url":"/","kind":"custom","isTopLevelLink":true} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e('Blog', 'whoami'); ?>","url":"/blog","kind":"custom","isTopLevelLink":true} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e('Projects', 'whoami'); ?>","url":"/projects","kind":"custom","isTopLevelLink":true} /-->
     <!-- wp:navigation-link {"label":"<?php esc_html_e('Contact', 'whoami'); ?>","url":"/contact","kind":"custom","isTopLevelLink":true} /-->

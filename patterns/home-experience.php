@@ -45,6 +45,50 @@
         <!-- wp:column {"width":"25%"} -->
         <div class="wp-block-column" style="flex-basis: 25%">
             <!-- wp:paragraph {"align":"right","textColor":"wmi-primary"} -->
+            <p class="has-text-align-right has-wmi-primary-color has-text-color">[ Nov 2022 - Feb 2023 ]</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column {"width":""} -->
+        <div class="wp-block-column">
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">Senior Frontend Developer</h3>
+            <!-- /wp:heading -->
+
+            <!-- wp:spacer {"height":"5px"} -->
+            <div style="height: 5px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
+
+            <!-- wp:paragraph -->
+            <p><a href="#">CoderGens</a>, Software Company, Dhaka, Bangladesh</p>
+            <!-- /wp:paragraph -->
+
+            <!-- wp:spacer {"height":"20px"} -->
+            <div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
+
+            <!-- wp:list {"className":"is-style-has-icon is-style-wmi-has-emoji"} -->
+            <ul class="is-style-has-icon is-style-wmi-has-emoji">
+                <!-- wp:list-item -->
+                <li>Led the frontend development of several WordPress websites, including custom theme development and integration with Elementor. I also collaborated with the design/developer team to create engaging UI/UX experiences for end-users.</li>
+                <!-- /wp:list-item -->
+            </ul>
+            <!-- /wp:list -->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+
+    <!-- wp:spacer {"height":"20px"} -->
+    <div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"30px"}}}} -->
+    <div class="wp-block-columns">
+        <!-- wp:column {"width":"25%"} -->
+        <div class="wp-block-column" style="flex-basis: 25%">
+            <!-- wp:paragraph {"align":"right","textColor":"wmi-primary"} -->
             <p class="has-text-align-right has-wmi-primary-color has-text-color">[ Sept 2021 – Oct 2022 ]</p>
             <!-- /wp:paragraph -->
         </div>
@@ -52,9 +96,13 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">Software Engineer</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-heading","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-heading-color has-text-color has-3-xl-font-size">Software Engineer</h3>
             <!-- /wp:heading -->
+
+            <!-- wp:spacer {"height":"5px"} -->
+            <div style="height: 5px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
 
             <!-- wp:paragraph -->
             <p><a href="#">JoomShaper</a>, Software Company, Dhaka, Bangladesh</p>
@@ -75,11 +123,11 @@
                 <!-- /wp:list-item -->
 
                 <!-- wp:list-item -->
-                <li>Implementing responsive design ensuring cross-browser compatibility. Transferring design into production-ready Themeum's flagship WordPress plugins and themes that has made life easier for thousands of users worldwide. </li>
+                <li>Implementing responsive design ensuring cross-browser compatibility. Transferring design into production-ready Themeum’s flagship WordPress plugins and themes that has made life easier for thousands of users worldwide.</li>
                 <!-- /wp:list-item -->
 
                 <!-- wp:list-item -->
-                <li>Developing and maintaining web applications using HTML, CSS/SCSS, Vanilla JS, Reactjs, PHP, and other related technologies. </li>
+                <li>Developing and maintaining web applications using HTML, CSS/SCSS, Vanilla JS, Reactjs, PHP, and other related technologies.</li>
                 <!-- /wp:list-item -->
             </ul>
             <!-- /wp:list -->
@@ -104,9 +152,13 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-body-text"} -->
-            <h3 class="wp-block-heading has-wmi-body-text-color has-text-color" style="font-size: 24px">Frontend Developer </h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-body-text","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-body-text-color has-text-color has-3-xl-font-size">Frontend Developer </h3>
             <!-- /wp:heading -->
+
+            <!-- wp:spacer {"height":"5px"} -->
+            <div style="height: 5px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
 
             <!-- wp:paragraph -->
             <p><a href="#">JoomShaper</a>, Software Company, Dhaka, Bangladesh</p>
@@ -119,15 +171,15 @@
             <!-- wp:list {"className":"is-style-wmi-has-emoji"} -->
             <ul class="is-style-wmi-has-emoji">
                 <!-- wp:list-item -->
-                <li>Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products. </li>
+                <li>Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.</li>
                 <!-- /wp:list-item -->
 
                 <!-- wp:list-item -->
-                <li>Actively collaborated to develop up-and-running WordPress plugins and associated themes, building, updating and fixing features &amp; UIs. </li>
+                <li>Actively collaborated to develop up-and-running WordPress plugins and associated themes, building, updating and fixing features & UIs.</li>
                 <!-- /wp:list-item -->
 
                 <!-- wp:list-item -->
-                <li>Worked with Page Builder tools particularly on WordPress, Qubely &amp; Tutor LMS, popular flagship plugins, as a Frontend Developer. </li>
+                <li>Worked with Page Builder tools particularly on WordPress, Qubely & Tutor LMS, popular flagship plugins, as a Frontend Developer.</li>
                 <!-- /wp:list-item -->
             </ul>
             <!-- /wp:list -->
@@ -152,9 +204,13 @@
 
         <!-- wp:column {"width":""} -->
         <div class="wp-block-column">
-            <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}},"textColor":"wmi-heading"} -->
-            <h3 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 24px">Freelance Web Designer</h3>
+            <!-- wp:heading {"level":3,"textColor":"wmi-body-text","fontSize":"3xl"} -->
+            <h3 class="wp-block-heading has-wmi-body-text-color has-text-color has-3-xl-font-size">Freelance Web Designer</h3>
             <!-- /wp:heading -->
+
+            <!-- wp:spacer {"height":"5px"} -->
+            <div style="height: 5px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
 
             <!-- wp:paragraph -->
             <p>Online/Offline</p>
