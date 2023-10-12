@@ -214,6 +214,10 @@ footer.wp-block-template-part .emoji {
 			background: hsl(215 47% 7.5% / 1);
 		}
 	}
+
+	p .MathJax_Display {
+		overflow-x: auto;
+	}
 }
 
 // NEXT-PREV POSTS
@@ -221,6 +225,18 @@ footer.wp-block-template-part .emoji {
 	@include breakpoint-max(781) {
 		&.is-content-justification-space-between.is-nowrap {
 			flex-direction: column;
+		}
+	}
+
+	:is(.post-navigation-link-previous, .post-navigation-link-next) {
+		font-size: 1rem;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		span {
+			font-size: 1.2em;
+			margin-inline: 0;
 		}
 	}
 }
