@@ -278,7 +278,7 @@
 			"core/post-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--4-xl)",
-					"lineHeight": "1"
+					"lineHeight": "1.2"
 				}
 			},
 			"core/block": {
