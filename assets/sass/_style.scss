@@ -162,8 +162,8 @@ footer.wp-block-template-part .emoji {
 		margin-bottom: 20px;
 	}
 
-	:is(> ul, > ol, > figure, > p) {
-		margin-bottom: 30px;
+	> :is(ul, ol, figure, p) {
+		margin-bottom: 35px;
 	}
 
 	figure.wp-block-image {
