@@ -36,7 +36,7 @@
     <div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0px","left":"30px"}}}} -->
+    <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"30px"}}}} -->
     <div class="wp-block-columns">
         <!-- wp:column {"width":"25%"} -->
         <div class="wp-block-column" style="flex-basis: 25%">

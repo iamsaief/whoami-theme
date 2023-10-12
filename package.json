@@ -9,7 +9,8 @@
 		"prod": "npm run production",
 		"production": "mix --production",
 		"makepot": "wp i18n make-pot --exclude='node_modules,vendor' . languages/whoami.pot",
-		"bundle": "dir-archiver --src . --dest ~/Downloads/whoami.zip --exclude .DS_Store .ds_store .keep mix-manifest.json .eslintrc.json .eslintignore .git .gitattributes .github .gitignore phpcs.xml README.md composer.json composer.lock node_modules package-lock.json package.json webpack.mix.js sass reactjs src"
+		"bundle": "dir-archiver --src . --dest ~/Downloads/whoami.zip --exclude .DS_Store .ds_store .keep mix-manifest.json .eslintrc.json .eslintignore .git .gitattributes .github .gitignore phpcs.xml README.md composer.json composer.lock node_modules package-lock.json package.json webpack.mix.js sass reactjs src",
+		"build": "npm run prod && npm run production && npm run bundle && open ~/Downloads"
 	},
 	"repository": {
 		"type": "git",

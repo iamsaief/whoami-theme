@@ -24,11 +24,12 @@ function whoami_styles_scripts() {
     wp_enqueue_script('whoami-index', get_template_directory_uri() . '/dist/index.js', [], wp_get_theme()->get('Version'), true);
 
 
-    // Function to add prism.css and prism.js to the site
+    // on single post
     if (is_single()) {
-        // Enqueue the registered style and script files
+        // prism.css and prism.js to the site
         wp_enqueue_style('prismCSS', get_template_directory_uri() . '/assets/css/prism.css');
         wp_enqueue_script('prismJS', get_template_directory_uri() . '/assets/js/prism.js');
+        wp_enqueue_script('mathjax', 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML');
     }
 }
 add_action('wp_enqueue_scripts', 'whoami_styles_scripts');

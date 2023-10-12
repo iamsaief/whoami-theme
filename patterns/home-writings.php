@@ -20,8 +20,8 @@
     <div class="wp-block-columns">
         <!-- wp:column {"width":"25%"} -->
         <div class="wp-block-column" style="flex-basis: 25%">
-            <!-- wp:heading {"textAlign":"right","style":{"typography":{"textTransform":"uppercase"}},"textColor":"wmi-primary","fontSize":"4xl"} -->
-            <h2 class="wp-block-heading has-text-align-right has-wmi-primary-color has-text-color has-4-xl-font-size" style="text-transform: uppercase"><a href="/blog"> Writings </a></h2>
+            <!-- wp:heading {"textAlign":"right","style":{"typography":{"textTransform":"uppercase"}},"textColor":"wmi-primary","className":"has-emoji-code","fontSize":"4xl"} -->
+            <h2 class="wp-block-heading has-text-align-right has-emoji-code has-wmi-primary-color has-text-color has-4-xl-font-size" style="text-transform:uppercase"><code>🔗</code> <a href="/blog">Writings </a></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->

@@ -77,6 +77,21 @@ main.main-wrapper {
 	@include nestedAnchorColor;
 }
 
+// Heading with emoji inline code
+.wp-block-heading.has-emoji-code {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	&.has-text-align-right {
+		justify-content: flex-end;
+	}
+
+	code {
+		font-size: 1.5rem;
+		margin-top: 2px;
+	}
+}
+
 // HEADER
 header.wp-block-template-part {
 	.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
@@ -182,10 +197,22 @@ footer.wp-block-template-part .emoji {
 		}
 	}
 
+	:not(pre) {
+		code {
+			color: var(--wp--preset--color--wmi-primary);
+			background: hsla(0deg, 0%, 100%, 0.03);
+			border-radius: 2px;
+			padding-inline: 4px;
+			margin-inline: -2px;
+		}
+	}
+
 	pre.wp-block-code {
-		margin-bottom: 30px;
-		font-size: 0.88em;
-		background: hsl(215 47% 7.5% / 1);
+		&[class*="language-"] {
+			margin-bottom: 30px;
+			font-size: 0.88em;
+			background: hsl(215 47% 7.5% / 1);
+		}
 	}
 }
 
