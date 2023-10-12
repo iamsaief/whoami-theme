@@ -1,7 +1,5 @@
 // Base styles
-*,
-*::before,
-*::after {
+:is(*, *::before, *::after) {
 	box-sizing: border-box;
 	//outline: 1px dotted rgba(255, 0, 0, 0.15); // layout debug
 }
@@ -21,30 +19,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-figure,
-img {
+:is(figure, img) {
 	max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
+:is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 0;
 }
 
 [type="search"] {
 	outline-offset: 0px;
 }
 
-[type="search"],
-button,
-[type="button"],
-[type="reset"],
-[type="submit"],
-a {
+:is([type="search"], button, [type="button"], [type="reset"], [type="submit"], a) {
 	&:is(:focus-visible) {
 		border-radius: 4px;
 		outline-color: var(--wp--preset--color--wmi-primary);
