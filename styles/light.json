@@ -31,6 +31,11 @@
 					"name": "Border",
 					"slug": "wmi-border",
 					"color": "hsl(0 0% 95% / 1)"
+				},
+				{
+					"name": "Border Input",
+					"slug": "wmi-border-input",
+					"color": "hsl(0 0% 75% / 1)"
 				}
 			]
 		}

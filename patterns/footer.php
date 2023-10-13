@@ -8,6 +8,8 @@
  *
  */
 
+require THEME_DIR . '/inc/data.php';
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
@@ -16,15 +18,11 @@
     <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:social-links {"iconColor":"wmi-body-text","iconColorValue":"hsl(0deg 0% 10.2%)","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"20px"}}},"className":"is-style-logos-only hide-on-desktop","layout":{"type":"flex","justifyContent":"center"}} -->
+    <!-- wp:social-links {"openInNewTab":true,"iconColor":"wmi-body-text","iconColorValue":"hsl(0deg 0% 10.2%)","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"20px"}}},"className":"is-style-logos-only hide-on-desktop","layout":{"type":"flex","justifyContent":"center"}} -->
     <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only hide-on-desktop">
-        <!-- wp:social-link {"url":"#","service":"github"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"codepen"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"facebook"} /-->
+        <?php for ($i = 0; $i < count($social_icons_header); $i++) : ?>
+            <!-- wp:social-link {"url":"<?php echo $social_icons_header[$i]['url']; ?>","service":"<?php echo $social_icons_header[$i]['slug']; ?>"} /-->
+        <?php endfor; ?>
     </ul>
     <!-- /wp:social-links -->
 

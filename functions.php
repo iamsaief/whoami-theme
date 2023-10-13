@@ -29,7 +29,7 @@ function whoami_styles_scripts() {
         // prism.css and prism.js to the site
         wp_enqueue_style('prismCSS', get_template_directory_uri() . '/assets/css/prism.css');
         wp_enqueue_script('prismJS', get_template_directory_uri() . '/assets/js/prism.js');
-        wp_enqueue_script('mathjax', 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML');
+        wp_enqueue_script('mathjax', 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js');
     }
 }
 add_action('wp_enqueue_scripts', 'whoami_styles_scripts');

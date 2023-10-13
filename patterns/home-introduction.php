@@ -8,6 +8,8 @@
  * Inserter: true
  */
 
+require THEME_DIR . '/inc/data.php';
+
 ?>
 
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
@@ -20,14 +22,15 @@
             <div style="height: 20px" aria-hidden="true" class="wp-block-spacer"></div>
             <!-- /wp:spacer -->
 
-            <!-- wp:site-logo {"width":150,"align":"right","className":"is-style-rounded"} /-->
+            <!-- wp:site-logo {"shouldSyncIcon":true, "width":150,"align":"right","className":"is-style-rounded"} /-->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"verticalAlignment":"top"} -->
         <div class="wp-block-column is-vertically-aligned-top">
-            <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"50px"}},"textColor":"wmi-heading"} -->
-            <h1 class="wp-block-heading has-wmi-heading-color has-text-color" style="font-size: 50px">Saief Al Emon</h1>
+
+            <!-- wp:heading {"level":1,"textColor":"wmi-heading","fontSize":"5xl"} -->
+            <h1 class="wp-block-heading has-wmi-heading-color has-text-color has-5-xl-font-size">Saief Al Emon</h1>
             <!-- /wp:heading -->
 
             <!-- wp:spacer {"height":"20px"} -->
@@ -54,21 +57,11 @@
     <div style="height: 40px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
-    <!-- wp:social-links {"iconColor":"wmi-body-text","iconColorValue":"hsl(0deg 0% 10.2%)","style":{"spacing":{"blockGap":{"left":"50px"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+    <!-- wp:social-links {"openInNewTab":true,"iconColor":"wmi-body-text","iconColorValue":"hsl(0deg 0% 10.2%)","style":{"spacing":{"blockGap":{"left":"50px"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
     <ul class="wp-block-social-links has-icon-color is-style-logos-only">
-        <!-- wp:social-link {"url":"#","service":"github"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"codepen"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"facebook"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"twitter"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"instagram"} /-->
-
-        <!-- wp:social-link {"url":"#","service":"youtube"} /-->
+        <?php for ($i = 0; $i < count($social_icons_intro); $i++) : ?>
+            <!-- wp:social-link {"url":"<?php echo $social_icons_intro[$i]['url']; ?>","service":"<?php echo $social_icons_intro[$i]['slug']; ?>"} /-->
+        <?php endfor; ?>
     </ul>
     <!-- /wp:social-links -->
 

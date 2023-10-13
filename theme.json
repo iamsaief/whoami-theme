@@ -39,6 +39,11 @@
 					"name": "Border",
 					"slug": "wmi-border",
 					"color": "hsl(0deg 0% 30% / 20%)"
+				},
+				{
+					"name": "Border Input",
+					"slug": "wmi-border-input",
+					"color": "hsl(0 0% 30% / 1)"
 				}
 			]
 		},
@@ -191,7 +196,7 @@
 			"fontFamily": "var(--wp--preset--font-family--system-font)",
 			"fontSize": "16px",
 			"fontWeight": "400",
-			"lineHeight": "1.4"
+			"lineHeight": "1.5"
 		},
 		"elements": {
 			"heading": {
@@ -200,19 +205,18 @@
 				}
 			},
 			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--wmi-body-bg)",
+					"background": "var(--wp--preset--color--wmi-body-text)"
+				},
 				":hover": {
 					"typography": {
 						"textDecoration": "none"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--wmi-body-bg)",
+						"background": "var(--wp--preset--color--wmi-primary)"
 					}
-				},
-				":focus": {
-					"color": {}
-				},
-				":active": {
-					"color": {}
-				},
-				":visited": {
-					"color": {}
 				}
 			},
 			"link": {
@@ -229,9 +233,6 @@
 					"typography": {
 						"textDecoration": "underline"
 					}
-				},
-				":visited": {
-					"color": {}
 				}
 			},
 			"h1": {
@@ -281,12 +282,6 @@
 					"lineHeight": "1.2"
 				}
 			},
-			"core/block": {
-				"spacing": {
-					"padding": {}
-				},
-				"variations": {}
-			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -325,6 +320,11 @@
 			"name": "page-projects",
 			"postTypes": ["page"],
 			"title": "Page: Projects"
+		},
+		{
+			"name": "page-contact",
+			"postTypes": ["page"],
+			"title": "Page: Contact"
 		}
 	]
 }
