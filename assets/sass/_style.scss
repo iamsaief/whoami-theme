@@ -123,6 +123,10 @@ header.wp-block-template-part {
 	}
 
 	ul.wp-block-social-links {
+		@include breakpoint-max(600) {
+			margin-top: 20px;
+		}
+
 		&.hide-on-desktop {
 			display: flex;
 			@include breakpoint-min(600) {
@@ -214,7 +218,7 @@ footer.wp-block-template-part .emoji {
 	pre.wp-block-code {
 		&[class*="language-"] {
 			margin-bottom: 30px;
-			font-size: 0.88em;
+			font-size: 0.8rem;
 			background: hsl(215 47% 7.5% / 1);
 		}
 	}
